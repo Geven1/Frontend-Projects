@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box;
+}
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+body{
+    margin:0;  padding:0;
+    line-height: inherit;
+}
+div{
+    display:block;
+}
+.items-centre{  align-items: center;}
+.text-centre{ text-align: center;}
+.text-white{    color: white;}
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+.flex{  
+    display:flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.gap-5{
+    gap: 1.25rem;
+}
+.bg-neutral-900{
+    background-color: rgb(23 23 23);
+}
+.text-grey{
+    color: rgb(163,163,163);
+}
+.font-bold{
+    font-weight: 700;
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: inherit;
+}
+.py2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.cursor-pointer{    cursor:pointer;
+}
+.mt-1{margin-top: 0.25rem;}
+
+.divide-y>:not([hidden])~:not([hidden]){         
+    --tw-divide-y-reverse:0;
+    border-top-width:calc(1px*calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width:calc(1px*var(--tw-divide-y-reverse));
+}
+
+.divide-neutral-500>:not([hidden])~:not([hidden]){
+    --tw-divide-opacity:1;
+    border-color:rgb(115 115 115/var(--tw-divide-opacity));
+}
+
+
+@media (min-width : 640px) {
+
+    a:hover{  color: white;}
+    
+    .pt-1{   padding-top: 0.5rem;}
+    .pt-5{   padding-top: 1.25rem;}
+    .fontandheight-size{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+    p{color : rgb(136, 174, 176)}
+    
+    .w-20{   width: 5rem;}
+    .container{ 
+        max-width: 750px!important;
+        padding: 0 1rem;
+        margin: auto;
+    }
+    .text-9xl{
+        font-size: 8rem;
+        line-height: 1;
+    }
+    .text-xl{
+        font-size: 1.25rem;
+        line-height:1.75rem;
+    }
+    .text-2xl{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .text-lg{
+        font-size:1.125rem;
+        line-height: 1.75rem;
+    }
+    .flex-row{
+        flex-direction:row;
+    }
+    .py4{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .mt-0{
+        margin-top:0;
+    }
+    .mt-16{
+        margin-top:4rem;
+    }
+}
+
+@media (max-width: 640px){
+
+}
