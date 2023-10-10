@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    background-color:rgb(241, 231, 223);
+}
+main{
+    height: calc(100vh - 3rem);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+.container{
+    display: grid;
+    justify-items: center;
+}
+h4{
+    font-size: 2.75rem;
+    font-weight: 300;
+}
+h3{
+    font-size: 5rem;
+ 
+}
+ul{
+    margin-top: 0.5rem;
+}
+button{
+    display: block;
+    background-color: aliceblue; 
+    margin: 0.2rem 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    border-color: black;
+    text-transform:uppercase;
+    letter-spacing: 0.09rem;
+}
