@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+nav{
+    background-color: aliceblue;
+    height: 3rem;
+    box-shadow: 1px 3px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+.nav-center{
+    margin: auto;
+    max-width: 620px;
+    width: 90vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 1rem;
+}
+/* By Geven */
+main{
+    
+    height: calc(100vh - 3rem);
+    display: grid;
+    align-items: center;
+}
+.container{
+    text-align: center;
+}
+.container h2{
+    padding: 1rem;
+    background-color: black;
+    color:beige;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.border-radius{
+    border-radius: 0.25rem;
+}
+button{
+    background-color: transparent;
+    transition: all 0.3ms linear;
+    text-transform: uppercase;
+    padding: 0.75rem 1.25rem;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+.button :hover{
+    color: black;
+}
